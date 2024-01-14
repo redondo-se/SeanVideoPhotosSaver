@@ -1,0 +1,20 @@
+﻿<Window x:Class="SeanVideoPhotosSaver.Settings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="SeanVideoPhotosSaver Settings" WindowStartupLocation="CenterScreen" Width="500" Height="130" ResizeMode="NoResize"
+    >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <DockPanel Grid.Row="0" LastChildFill="False">
+            <TextBox Height="32" Width="400" DockPanel.Dock="Left" HorizontalAlignment="Left" Name="FileNameTextBox" />
+            <Button Content="Browse" Height="32"  Width="90" HorizontalAlignment="Left" Name="BrowseButton" Click="BrowseButton_Click" />
+        </DockPanel>
+        <DockPanel Grid.Row="1" LastChildFill="False">
+            <Button Content="Cancel" Height="32"  Width="88" Click="Cancel_Click" DockPanel.Dock="Right" Margin="20,0,5,0"/>
+            <Button Content="OK" Height="32"  Width="88" Click="OK_Click" DockPanel.Dock="Right"/>
+        </DockPanel>
+    </Grid>
+</Window>
