@@ -20,6 +20,12 @@ The screensaver is written in WPF and requires .Net 4.6.1 to be installed.
 Extract the contents of the archive to a folder. The files must remain in this location. Right click the .scr file and choose install.
 Go to the Windows screen saver configuration, choose SeanVideoPhotosSaver, and then click Settings to specify the folder to use.
 
+## Keyboard Controls
+
+- Right Arrow: next picture or video
+- Left Arrow: previous picture or video
+- M Key: toggle sound on/off for videos
+
 ## Additional Notes
 
  - The screen saver rotates between themes each time it launches
