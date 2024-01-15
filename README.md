@@ -1,6 +1,8 @@
 # SeanVideoPhotosSaver
 A Windows screen saver that displays photos and videos
 
+![demo](SeanVideoPhotosSaver.gif)
+
 # More Info
 
 This Windows screensaver shows photos and videos from the folder of your choice in 4 different themes:
